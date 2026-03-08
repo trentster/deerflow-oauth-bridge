@@ -96,7 +96,7 @@ Restart DeerFlow and you're ready to go.
 | `gpt-5.2` | ✅ Working |
 | `gpt-5.2-codex` | ✅ Working |
 | `gpt-5.3-codex` | ✅ Working |
-| `gpt-5.4` | ✅ Working |
+| `gpt-5.4` | ✅ Working (tested end-to-end: chat + web-search tool calls) |
 | `gpt-5-mini` | ❌ Not supported with Codex OAuth |
 | `gpt-5-nano` | ❌ Not supported with Codex OAuth |
 | `codex` / `codex-mini` / `codex-max` | ❌ Not supported with Codex OAuth |
