@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deerflow-oauth-bridge"
+version = "0.1.0"
+description = "OAuth bridge proxy for using ChatGPT Codex OAuth with DeerFlow via OpenAI-compatible chat completions endpoint"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "httpx",
+]
+
+[project.scripts]
+deerflow-oauth-bridge = "server:app"
