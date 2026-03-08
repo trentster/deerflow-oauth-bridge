@@ -68,10 +68,10 @@ Add this to your DeerFlow `config.yaml` under the `models:` section:
 
 ```yaml
 models:
-  - name: gpt-5.3-codex
-    display_name: GPT-5.3 Codex (OAuth Bridge)
+  - name: gpt-5.4
+    display_name: GPT-5.4 (OAuth Bridge)
     use: langchain_openai:ChatOpenAI
-    model: gpt-5.3-codex
+    model: gpt-5.4
     api_key: "not-needed"
     base_url: http://host.docker.internal:8462/v1
     max_tokens: 4096
