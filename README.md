@@ -96,7 +96,7 @@ Restart DeerFlow and you're ready to go.
 | `gpt-5.2` | ✅ Working |
 | `gpt-5.2-codex` | ✅ Working |
 | `gpt-5.3-codex` | ✅ Working |
-| `gpt-5.4` | ✅ Working (tested end-to-end: chat + web-search tool calls) — **recommended default**; incorporates GPT-5.3-codex coding capabilities |
+| `gpt-5.4` | ✅ **Recommended.** OpenAI's latest frontier model. Incorporates GPT-5.3-codex coding capabilities into the mainline model. No separate codex variant exists for 5.4. |
 | `gpt-5.4-codex` | ❌ Not supported with Codex OAuth (re-checked 2026-03-08) |
 | `gpt-5.3` | ❌ Not supported with Codex OAuth (re-checked 2026-03-08) |
 | `gpt-5-mini` | ❌ Not supported with Codex OAuth |
